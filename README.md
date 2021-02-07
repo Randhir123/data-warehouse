@@ -1,2 +1,2 @@
-# data-warehouse
+# Data Warehouse
 Data Warehouse using Amazon Redshift
