@@ -73,7 +73,7 @@ The dimension tables are -
         artist_id
         name
         location
-        lattitude
+        latitude
         longtitude
 
 4. `time` - timestamps of records in songplays
@@ -120,4 +120,4 @@ and then run `etl.py` to insert data into staging tables and then from staging t
 
 ## Test
 
-To verify that the ETL process is a success, we can go the Redshift cluster in AWS Console and verify that the tables are created with right schema and data is correcly populated.
+To verify that the ETL process is a success, we can go the Redshift cluster in AWS Console and verify that the tables are created with right schema and data is correctly populated.
